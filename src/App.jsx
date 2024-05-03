@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
+import ListadoLibros from "./components/ListadoLibros";
 
 function App() {
   return (
     <>
-      <h1>¡Hola Mundo!</h1>
-      <h2>Soy un discente del curso de React del CEFIRE</h2>
+      <ListadoLibros/>
     </>
   );
 }
