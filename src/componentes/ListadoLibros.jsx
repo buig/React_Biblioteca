@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Libro from "./Libro.jsx";
 import coleccion from "../assets/bbdd/biblioteca.json";
+import "./ListadoLibros.css";
 
 const ListadoLibros = () => {
   return (
