@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import ListadoLibros from "../ListadoLibros.jsx";
 import "./Contenido.css";
+import ListadoLibros from "../ListadoLibros.jsx";
 
 const Contenido = () => {
   return (

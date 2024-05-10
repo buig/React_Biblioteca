@@ -5,7 +5,7 @@ const Navegacion = () => {
   return (
     <Fragment>
       <nav className='menu'>
-        <ul className='menu__lista'>
+        <ul className='menu__list'>
           <li className='menu__item'>Inicio</li>
           <li className='menu__item'>Crear libro</li>
           <li className='menu__item'>Buscar libros</li>

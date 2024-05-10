@@ -3,7 +3,7 @@
     padding: 20px 10px;
 }
 
-.menu__lista {
+.menu__list {
     list-style: none;
     width: var(--default-size);
     margin: 0 auto;
@@ -21,7 +21,26 @@
 .menu__item:hover {
     background-color: var(--primary-color);
     color: var(--menu-color);
+    cursor: pointer;
+} 
+
+.menu__link {
+    padding: 5px 10px;
+    color: var(--primary-color);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+
+.menu__link:hover {
+    background-color: var(--primary-color);
+    color: var(--menu-color);
+} 
+
+.menu__link--activo {
+    background-color: var(--primary-color);
+    color: var(--menu-color);
+}
+
 
 /* Media queries */
 
